@@ -1,11 +1,13 @@
-xfce4 Configuration Cookbook
+Xfce4 Configuration Cookbook
 ==============
 
 This cookbook makes configurations for Xfce4.
+- At this moment, this cookbook:
+  - adds Eclipse launcher in the Xfce4 application menu.
 
 Requirements
 ------------
-None.
+"eclipse" Chef cookbook.
 
 Attributes
 ----------
