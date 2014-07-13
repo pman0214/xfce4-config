@@ -1,10 +1,13 @@
+<%
+conf = node['xfce4']['eclipse']
+%>
 [Desktop Entry]
-Version=<%= @version %>
+Version=<%= conf['version'] %>
 Type=Application
-Name=<%= @app_name %>
-Comment=<%= @comment %>
-Exec=<%= @bin_path %>
-Icon=<%= @icon_path %>
+Name=<%= conf['app_name'] %>
+Comment=<%= conf['comment'] %>
+Exec=<%= conf['bin_path'] %>
+Icon=<%= conf['icon_path'] %>
 Path=
 Terminal=false
 StartupNotify=false
